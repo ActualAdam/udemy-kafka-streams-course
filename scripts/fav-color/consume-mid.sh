@@ -1,0 +1,8 @@
+/Users/actualadam/ws/fun/kafka-course/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
+--topic fav.color.mid.1 \
+--from-beginning \
+--formatter kafka.tools.DefaultMessageFormatter \
+--property print.key=true \
+--property print.value=true \
+--property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer \
+--property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
